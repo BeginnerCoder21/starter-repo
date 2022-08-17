@@ -1,0 +1,28 @@
+.box{
+    margin: 20px 20px 20px 20px;
+    padding: 0;
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    padding: 30px 30px 30px 30px;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+.card>.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card>.content{
+    padding-top: 20px;
+    font-size: 15px;
+}
